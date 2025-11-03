@@ -7,7 +7,7 @@ body {
 }
 /* div بالا */
 .divheader {
-  background-color: #315c5c; /* رنگ سبز تیره */
+  background-color: #315c5c; 
   color: white;
   display: flex;
   align-items: center;
@@ -23,6 +23,12 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+}
+
+/* صفحه اصلی */
+.div-container {
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -81,4 +87,9 @@ background-color: #f8f9fa;
 
 .divmenu li ul li:hover {
   color: #00796b;
+}
+
+.iframe{
+  width: 1262px;
+  height: 750px;
 }
