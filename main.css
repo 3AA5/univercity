@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Vazir", sans-serif;
+  background-color: #f5f5f5;
+  direction: rtl;
+}
+/* div بالا */
+.divheader {
+  background-color: #315c5c; /* رنگ سبز تیره */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 20px;
+  
+}
+.pheader {
+  margin: 0;
+  font-size: 14px;
+}
+.imgheader {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+/* ستون سمت راست */
+.divmenu {
+  width: 230px;
+background-color: #f8f9fa;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  height: 100vh;
+}
+
+/* لیست اصلی */
+.divmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* آیتم‌های اصلی */
+.divmenu li {
+  background-color: #e6f0ef;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.divmenu li:hover {
+  background-color: #d0e2e0;
+}
+
+/* زیرمنو */
+.divmenu li ul {
+  display: none;
+  background-color: #f2f8f7;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* وقتی موس روی آیتم رفت زیرمنو باز شه */
+.divmenu li:hover ul {
+  display: block;
+}
+
+.divmenu li ul li {
+  background: none;
+  padding: 5px 0;
+  margin: 0;
+  border: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.divmenu li ul li:hover {
+  color: #00796b;
+}
