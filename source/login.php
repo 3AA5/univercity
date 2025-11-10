@@ -47,7 +47,7 @@
         }
     }
     else {
-        header("Location: login.html");
+        header("Location: login.php");
         exit();
     }
 ?>
