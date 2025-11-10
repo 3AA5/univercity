@@ -1,4 +1,4 @@
 <?php
-header("Location: source/login.html");
+header("Location: source/Lo-Si.html");
 exit();
 ?>
