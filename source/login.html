@@ -12,15 +12,15 @@
     <h2 class="text-center mb-4">فرم ورود</h2>
 
     <!-- فرم ورود -->
-    <form class="d-flex flex-column gap-3">
+    <form class="d-flex flex-column gap-3" action="login.php" method="POST">
       <div>
         <label class="form-label">ایمیل:</label>
-        <input type="text" class="form-control" required>
+        <input type="text" class="form-control" required name="email">
       </div>
 
       <div>
         <label class="form-label">رمز عبور:</label>
-        <input type="password" class="form-control" required>
+        <input type="password" class="form-control" required name="password">
       </div>
 
       <button type="submit" class="btn btn-success mt-2">ورود</button>
