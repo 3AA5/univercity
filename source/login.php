@@ -23,7 +23,7 @@
                     <p>در حال انتقال به صفحه اصلی...</p>
                     </body>
                 </html>";
-                header("Refresh: 3; url=main.html");
+                header("Refresh: 3; url=main.php");
             }
             else {
                 echo"<html>
