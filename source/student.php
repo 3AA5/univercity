@@ -1,5 +1,8 @@
 <?php
   include 'islogin.php';
+  if ($_SESSION['role']=="مدرس") {
+    header("Location: teacher.php");
+  }
 ?>
 
 <!DOCTYPE html>
@@ -46,6 +49,9 @@
               <li>ویرایش اطلاعات</li>
               <li>تغییر رمز عبور</li>
             </ul>
+          </li>
+          <li>
+            <a href="logout.php" style="color:red; text-decoration:none;">🔴 خروج</a>
           </li>
         </ul>
       </div>

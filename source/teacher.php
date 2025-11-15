@@ -1,3 +1,9 @@
+<?php
+  include 'islogin.php';
+  if ($_SESSION['role']=="دانشجو") {
+    header("Location: student.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -23,7 +23,7 @@
                     <p>در حال انتقال به صفحه اصلی...</p>
                     </body>
                 </html>";
-                header("Refresh: 3; url=main.html");
+                header("Refresh: 3; url=Role.php");
             }
             else {
                 echo"<html>
@@ -47,7 +47,7 @@
         }
     }
     else {
-        header("Location: login.php");
+        header("Location: login.html");
         exit();
     }
 ?>
