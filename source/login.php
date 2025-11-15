@@ -13,6 +13,7 @@
             if (password_verify($password, $user['password'])) {
 
                 $_SESSION['user_id'] = $user['id'];
+                $_SESSION['username']=$user['name'];
                 $_SESSION['user_email'] = $email;
                 $_SESSION['loggedin'] = true;
                 $_SESSION['role'] = $user['role'];
