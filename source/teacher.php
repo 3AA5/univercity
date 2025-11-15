@@ -15,6 +15,9 @@
 <body>
     <div class="divheader">
         <p class="pheader">سامانه بوستان  - اساتید ابن حسام</p>
+        <?php
+        echo "<p class='pheader'>خوش آمدید ",$_SESSION['username'],"</p>";
+        ?>
         <img class="imgheader" src="logo.jpg" >
         
       </div>
