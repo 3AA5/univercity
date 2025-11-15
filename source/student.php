@@ -1,11 +1,8 @@
 <?php
   include 'islogin.php';
-<<<<<<<< HEAD:source/main.php
-========
   if ($_SESSION['role']=="مدرس") {
     header("Location: teacher.php");
   }
->>>>>>>> 94e7e5e5d13128d7c40359420a3dc375b565412c:source/student.php
 ?>
 
 <!DOCTYPE html>
